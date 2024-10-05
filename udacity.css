@@ -1,0 +1,246 @@
+:root {
+    --primary-text-color:#183b58;
+    --secondary-text-color:#577592;
+    --accent-color:#2293ed;
+    --accent-color-dark:#1d69a3;
+    --padding-inline-section:20px;
+}
+
+        /* nav section */
+
+.headers{
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.box-bar{
+    width: 100px;
+    height: 50px;
+    border: 2px solid none;     
+}  
+  
+#box-1{       
+    width: 300px;  
+    height: 100px;
+    margin-top: 0; 
+    margin-left: 200px; 
+    background-image: url("https://tse4.mm.bing.net/th?id=OIP.9IEmjlBU1TdSfXUt6I_2dAHaDg&pid=Api&P=0&h=180");
+    background-size: 300px 100px;/*width height*/
+} 
+ 
+#box-2{
+    color: blue;
+    cursor: pointer;
+    margin-left: 250px;
+    margin-top: 50px;
+}
+
+#box-3{
+    color: blue;
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+#box-4{
+    cursor: pointer;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+
+        /* main header */
+
+.yellow-img {
+    background-image: url("https://th.bing.com/th/id/OIP.GI1TtjwdCZr4MhuS1K33xgAAAA?w=474&h=276&rs=1&pid=ImgDetMain" );
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 250px;
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+}
+
+.yellow-box-content { 
+    text-align: center;
+    padding: 40px; 
+    gap: 200px;
+}
+
+h1{ 
+    font-family:sans-serif; 
+    font-weight:lighter;
+    font-size: 30px;    
+}
+
+p{ 
+    padding-bottom: 0;
+ 
+}
+
+.search { 
+    /* color: green;  search button icon color*/
+    width: 500px;
+    height: 40px;
+    background-color: white;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    padding-left: 20px;
+    margin-left: 480px;
+    margin-bottom: 70px;
+}
+
+.search > i {
+    font-size: 20px;
+    color: #777;
+    padding-left: 20px;
+}
+
+.search > input {  
+    flex: 1;
+    height: 30px;
+    border: none;
+    outline: none;
+    font-size: 18px;  
+}
+
+*{
+    box-sizing: border-box;
+}
+ 
+.containerr { 
+    height: 500px;
+    border: 2px solid none; 
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 5px;
+    row-gap: 0px;
+    justify-content: center;
+    margin: 40px 200px;   
+}  
+    
+.box{
+    border: 1.5px solid var(--secondary-text-color);
+    border-radius: 3px;
+    width: 300px; 
+    height: 80px; 
+    padding: 10px 20px;
+    display: flex;    
+    /* flex-wrap: wrap;  20 30 30 */ 
+    margin: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    align-items: center;
+    padding-left: 8px;
+    /* background: linear-gradient(rgb(0, 0, 0, 0.1),rgb(0, 0, 0, 0.8)); */
+}   
+
+.box:hover{
+    background-color: blue;
+}
+   
+i{
+    padding-right: 30px; 
+    
+} 
+
+a{
+    text-decoration: none;
+    color: blue;
+    margin-left: 50px;
+    animation: 1s;
+}
+
+a:hover{
+    color: white;
+}
+ 
+#box-23 {
+    width: 460px;
+    
+}
+
+#box-24 {
+    width: 460px;
+}
+
+/* .footer-pts {
+    height: 200px;
+    border: 1.5px solid red;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    margin: 40px;
+    justify-content: center; 
+    gap: 40px;
+    row-gap: 20px;
+    column-gap: 90px;
+    
+}  */
+        /* footer */
+ 
+.final {
+    display: flex; 
+    flex-wrap: wrap;
+    flex-direction: row;
+    align-items: flex-start;
+    column-gap: 150px;
+    border: 2px solid none;
+    margin: 50px 150px;
+    /* gap: 50px; */
+    row-gap: 700px;   
+} 
+
+        /* language section */
+
+.containerrr {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    border: 2px solid none;
+    justify-content: space-between; 
+    margin-left: 130px;
+    margin-right: 130px;
+    padding-top: 40px;
+}
+
+.box5 {   
+    border: 2px solid none;
+} 
+
+.Choose {
+    margin-top: 20px;
+    border:none;
+}
+
+        /* ChatBot */
+
+/*.chatbot{
+    height: 600px;
+    width: 300px;
+    background-color: gainsboro;
+    margin: 100px;
+ 
+ } */
+ 
+.square{
+     width: 130px; 
+     height: 40px;
+     cursor: pointer;
+     /* cursor: progress; */
+}
+
+.navy{
+    background-color: navy;
+    border-radius: 50px;
+    color: white;
+    right: 0px;
+    top: 90%;
+    position: fixed;
+    text-align: center;
+    padding: 10px;
+    padding-left: 0;    
+}
